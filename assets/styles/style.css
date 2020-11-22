@@ -4,6 +4,8 @@ body{
     padding: 0;
     background-color: #16213e;
     color: white;
+    margin: auto;
+    display: flex;
 }
 .container{
     margin: auto;
@@ -35,33 +37,14 @@ body{
     min-height: 10rem;
     max-width: 7rem;
     margin: auto;
+
 }
-.red{
-    background-color: orangered;
-}
-.orange{
-    background-color: orange;
-}
-.yellow{
-    background-color: yellow;
-}
-.green{
-    background-color: green;
-}
-.light-blue{
-    background-color: lightblue;
-}
-.blue{
-    background-color: blue;
-}
-.purple{
-    background-color: purple;
-}
+
 .pisca {
     animation: pisca_pisca 1s linear infinite alternate;
   }
   
   @keyframes pisca_pisca {
-    from {box-shadow:none;}
-    to {box-shadow: inset 0 0 1em white, 0 0 1em white;}
+    from {box-shadow:none; filter:brightness(0.55);}
+    to {box-shadow: inset 0 0 1em white, 0 0 1em white;filter:brightness(1.25)}
   }
