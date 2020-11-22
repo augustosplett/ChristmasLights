@@ -3,6 +3,7 @@ body{
     margin: auto;
     padding: 0;
     background-color: #16213e;
+    color: white;
 }
 .container{
     margin: auto;
@@ -12,7 +13,7 @@ body{
 .lamp{
     width: 14%;
     padding: 0;
-    margin:center;
+    text-align: center;
     
 }
 .wire{
